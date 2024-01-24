@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Bricolage+Grotesque&family=DM+Sans:opsz,wght@9..40,300;9..40,500&family=Fira+Sans&family=Montserrat:ital,wght@1,600&family=Poppins:wght@200;400&family=Roboto+Mono&family=Roboto+Slab:wght@300;400&family=Roboto:wght@500&family=Rubik:wght@300;500&family=Source+Code+Pro:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Bricolage+Grotesque&family=DM+Sans:opsz,wght@9..40,300;9..40,500&family=Fira+Sans&family=Montserrat:ital,wght@1,600&family=Poppins:wght@200;400&family=Roboto+Mono&family=Roboto+Slab:wght@300;400&family=Roboto:wght@500&family=Rubik:wght@300;500&family=Source+Code+Pro:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Bricolage+Grotesque&family=DM+Sans:opsz,wght@9..40,300;9..40,500&family=Fira+Sans&family=Kanit:wght@200&family=Montserrat:ital,wght@1,600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main{ 
+
+    
+    height: 100%;
+    background-color: rgb(78, 76, 76);
+
+}
+
+.navbar { 
+
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    margin-right: 200px;
+    /* background-color: red; */
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 10px 100px;
+    padding: 5px 0;
+}
+
+.fa-solid {
+    padding: 0 4px;
+}
+
+span{
+    color:rgb(12, 143, 12);
+}
+
+
+.vue {
+    font-size: 1.3rem;
+    position: absolute;
+    left: 145px;
+    top: 20px;
+}
+
+ 
+#lamp{
+    width: 50px;
+    height: 50px;
+} 
+
+
+
+/* .navbar h1 i { 
+    margin-right: 7px;
+} */
+
+.navbar ul { 
+    position: absolute;
+    right: 150px;
+    display: flex;
+    list-style: none;
+    margin: 15px 0 0 30px ;
+    padding: 2px 0;
+   
+}
+
+.navbar ul li {
+
+    margin: 0 5px;
+ 
+}
+
+.navbar ul li a{ 
+    font-size: 1.1rem;
+    margin: 10px 3px;
+    padding: 0  4px;
+    color: white;
+    text-decoration: none;
+}
+
+.latest { 
+    font-size: 2rem;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 800;
+}
+
+.about {
+    width: 40vw;
+    font-size: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+.lightNintro {
+    /* background-color: green; */
+    /* position: relative; */
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.lightDescription {
+    margin: 0 170px;
+    position: absolute;
+    top:140px;
+    left:330px;
+    color: white;
+    text-align: left;
+    /* background-color: yellow; */
+    /* margin:50px 0 0 50px;  */
+}
+
+
+
+.lightImg img{ 
+    position: absolute;
+    left:250px;
+    top:0px;
+    margin-left: 18px;
+    width: 14vw;
+    height: 57vh;
+    /* margin: 10px 198px 10px;  */
+
+}
+
+
+
+.btn { 
+    /* border: 2px solid black; */
+    border-radius: 22px;
+    width: 250px;
+    background-color: rgb(7, 171, 165);
+    color:white;
+    padding: 10px 4px;
+    margin: 10px 5px;
+
+}
+
+.btn:hover { 
+    background-color:rgb(242, 242, 247);
+    color: rgb(3, 73, 73);
+}
+
+/* modern.html CSS */
+
+body::-webkit-scrollbar {
+    display: none;
+}
+.modernSection {
+    margin-top: 60px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6{
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+
+
+
+
+
+.iOne, .iThree, .iFive {
+    /* background-color: bisque; */
+    margin: 10px 150px;
+    cursor: pointer;
+}
+
+.pOne,.pThree, .pFive{
+    /* background-color: aliceblue; */
+    width: 440px;
+    height: 90px;
+    position: absolute;
+    right: 130px;
+    color: whitesmoke;
+}
+
+.iTwo,.iFour,.iSix  { 
+    background-color: bisque;
+    margin: 10px 0 10px 620px;
+    cursor: pointer;
+}
+.pTwo, .pFour, .pSix {
+    width: 440px;
+    height: 90px;
+    position: absolute;
+    left: 130px;
+    color: whitesmoke;
+}
+
